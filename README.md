@@ -15,7 +15,7 @@ This repository contains an image with Joomla's latest release based upon the gj
 You can get the image by running, this will install this image into your local docker repository.
 
 ```
-docker pull gjong/apache-joomla
+docker pull vints24/Apache-Joomla_V3-Docker
 ```
 
 ##########################
@@ -28,7 +28,7 @@ will be running on port 80, which is also exposed out of the container.
 You can run the container with access to the webserver by running:
 
 ```
-docker run -d -p 80:80 gjong/apache-joomla
+docker run -d -p 80:80 vints24/Apache-Joomla_V3-Docker
 ```
 
 Once the container is running you will get a joomla website on : http://localhost/ 
