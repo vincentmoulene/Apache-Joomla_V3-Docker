@@ -1,6 +1,6 @@
 FROM gjong/apache
 
-MAINTAINER Gerben Jongerius <g.jongerius@gmail.com>
+MAINTAINER Vincent Moulene <vincentmoulene@gmail.com>
 
 RUN apt-get install -y git
 
